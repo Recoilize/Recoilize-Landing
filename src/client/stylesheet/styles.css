@@ -1,0 +1,49 @@
+body {
+  background-color: #383a59;
+  color: #bd93f9;
+  font-family: Source Code Pro;
+}
+
+#navbar {
+  background-color: rgb(35, 37, 63);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar_logo {
+  width: 2rem;
+  margin-right: 1rem;
+}
+
+#hero_logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+#gif_section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.gifPositioning {
+  display: flex;
+  justify-content: center;
+}
+
+.codeExample {
+  border: 1px solid white;
+  color: #6a00ff;
+  background-color: rgb(173, 173, 173);
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+}
+
+.contributors {
+  text-decoration: none;
+  color: #e0cefc;
+}
+
+.contributors:hover {
+  color: rgb(0, 201, 10);
+}
