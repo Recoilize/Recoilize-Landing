@@ -11,29 +11,29 @@ function Installation() {
       <h1>Installation</h1>
       <br />
 
-      <h3>Install the Recoilize npm module</h3>
+      <p>Install the Recoilize npm module</p>
       <img src={install1} />
       <br />
 
-      <h3>Import RecoilizeDebugger from the module</h3>
+      <p>Import RecoilizeDebugger from the module</p>
       <img src={install2} />
       <br />
 
-      <h3>
+      <p>
         Recoilize requires you to create a variable that grabs the HTML element
         where you inject your React application
-      </h3>
+      </p>
       <img src={install3} />
       <br />
 
-      <h3>
+      <p>
         You must import all your atoms and selectors and pass them into the
         Recoilize component as show above
-      </h3>
+      </p>
       <img src={install4} />
       <br />
 
-      <h3>Example:</h3>
+      <p>Example:</p>
       <img src={install5} />
       <br />
       <br />
@@ -52,38 +52,60 @@ function Installation() {
       <br />
       <br />
       <h3>Contributors</h3>
-      <h4>
+      <p>
+        Bren Yamaguchi &nbsp;
         <a
           className='contributors'
           href='http://github.com/brenyama'
           target='_blank'>
-          Bren Yamaguchi
+          @github &nbsp;
         </a>
-      </h4>
-      <h4>
+        <a
+          className='contributors'
+          href='http://linkedin.com/in/brenyamaguchi'
+          target='_blank'>
+          @linkedin
+        </a>
+      </p>
+      <p>
+        Saejin Kang &nbsp;
         <a
           className='contributors'
           href='http://github.com/skang1004'
           target='_blank'>
-          Saejin Kang
+          @github &nbsp;
         </a>
-      </h4>
-      <h4>
+        <a
+          className='contributors'
+          href='http://linkedin.com/in/saejinkang1004'
+          target='_blank'>
+          @linkedin
+        </a>
+      </p>
+      <p>
+        Jonathan Escamilla &nbsp;
         <a
           className='contributors'
           href='http://github.com/jonescamilla'
           target='_blank'>
-          Jonathan Escamilla
+          @github &nbsp;
         </a>
-      </h4>
-      <h4>
+        <a
+          className='contributors'
+          href='https://www.linkedin.com/in/jon-escamilla/'
+          target='_blank'>
+          @linkedin
+        </a>
+      </p>
+      <p>
+        Sean Smith &nbsp;
         <a
           className='contributors'
           href='http://github.com/SmithSean17'
           target='_blank'>
-          Sean Smith
+          @github &nbsp;
         </a>
-      </h4>
+      </p>
     </div>
   );
 }
