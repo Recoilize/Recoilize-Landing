@@ -32,10 +32,12 @@ body {
 .gifPositioning {
   display: flex;
   justify-content: center;
+  width: 40rem;
 }
 
 .demoGifs {
-  width: max-content;
+  display: flex;
+  width: min-content;
   margin-top: 1rem;
   box-shadow: 10px 10px 10px #e893f9;
 }
