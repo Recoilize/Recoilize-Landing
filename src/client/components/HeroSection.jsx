@@ -40,7 +40,7 @@ function HeroSection() {
           <h3>
             Shows the difference in atoms and selectors from the previous render
             <br />
-            <div align='center'>
+            <div align='center' className='demoGifs'>
               <img className='gifPositioning' src={stateDiffGif} />
             </div>
           </h3>
@@ -50,7 +50,7 @@ function HeroSection() {
           <h3>
             View your atoms and selectors in a collapisble tree
             <br />
-            <div align='center'>
+            <div align='center' className='demoGifs'>
               <img className='gifPositioning' src={stateTreeGif} />
             </div>
           </h3>
@@ -60,7 +60,7 @@ function HeroSection() {
           <h3>
             Visualize all your atom and selector values in a tree graph
             <br />
-            <div align='center'>
+            <div align='center' className='demoGifs'>
               <img className='gifPositioning' src={stateGraphGif} />
             </div>
           </h3>
@@ -70,7 +70,7 @@ function HeroSection() {
           <h3>
             Display how all your atoms and selectors relate to each other
             <br />
-            <div align='center'>
+            <div align='center' className='demoGifs'>
               <img className='gifPositioning' src={atomNetworkGif} />
             </div>
           </h3>
@@ -81,7 +81,7 @@ function HeroSection() {
             See which of your React components are subscribed to certain atoms
             and selectors
             <br />
-            <div align='center'>
+            <div align='center' className='demoGifs'>
               <img className='gifPositioning' src={componentGraphGif} />
             </div>
           </h3>
