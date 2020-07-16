@@ -28,63 +28,64 @@ function HeroSection() {
       <div id='hero_logo'>
         <img src={logo} id='hero' />
       </div>
-      <h2 align='center'>
-        Recoilize is a Chrome Dev Tool meant for debugging applications built
-        with the new Recoil.js state management library!
+      <h1 align='center'>Recoilize</h1>
+      <h2 align='center' className='secondaryText'>
+        A Chrome Dev Tool meant for debugging applications built with the new
+        Recoil.js state management library!
       </h2>
       <br />
       <br />
       <h1 align='center'>** STILL IN BETA **</h1>
       <div id='gif_section'>
         <div className='gifPositioning'>
-          <h3>
-            Shows the difference in atoms and selectors from the previous render
+          <p className='secondaryText'>
+            Shows the difference in atoms and selectors from previous renders
             <br />
             <div align='center' className='demoGifs'>
               <img className='gifPositioning' src={stateDiffGif} />
             </div>
-          </h3>
+          </p>
         </div>
 
         <div className='gifPositioning'>
-          <h3>
+          <p className='secondaryText'>
             View your atoms and selectors in a collapisble tree
             <br />
             <div align='center' className='demoGifs'>
               <img className='gifPositioning' src={stateTreeGif} />
             </div>
-          </h3>
+          </p>
         </div>
 
         <div className='gifPositioning'>
-          <h3>
+          <p className='secondaryText'>
             Visualize all your atom and selector values in a tree graph
             <br />
             <div align='center' className='demoGifs'>
               <img className='gifPositioning' src={stateGraphGif} />
             </div>
-          </h3>
+          </p>
         </div>
 
         <div className='gifPositioning'>
-          <h3>
+          <p className='secondaryText'>
             Display how all your atoms and selectors relate to each other
             <br />
             <div align='center' className='demoGifs'>
               <img className='gifPositioning' src={atomNetworkGif} />
             </div>
-          </h3>
+          </p>
         </div>
 
         <div className='gifPositioning'>
-          <h3>
+          <p className='secondaryText'>
             See which of your React components are subscribed to certain atoms
             and selectors
             <br />
             <div align='center' className='demoGifs'>
               <img className='gifPositioning' src={componentGraphGif} />
             </div>
-          </h3>
+          </p>
         </div>
       </div>
       <br />
