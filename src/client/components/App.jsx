@@ -6,7 +6,8 @@ import {
   Redirect,
 } from 'react-router-dom';
 import { AppBar, Toolbar, Tabs, Tab } from '@material-ui/core';
-import logo from '../assets/Recoilize.png';
+// import logo from '../assets/Recoilize.png';
+import logo from '../assets/recoilize-white-01.png';
 import DocsComponent from './DocsComponent.jsx';
 import TutorialComponent from './TutorialComponent.jsx';
 import ContributingComponent from './ContributingComponent.jsx';
