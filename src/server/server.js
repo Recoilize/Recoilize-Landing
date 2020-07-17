@@ -18,25 +18,37 @@ app.get('/aadff28cffc66b3dff7e81a010c9840e.png', (req, res) => {
   res.sendFile(path.resolve(__dirname, '../client/assets/Recoilize.png'));
 });
 
-app.get('/a2e70c3edc03317d86659d1a1c72db70.png', (req, res) => {
+// rainbow recoilize logo
+app.get('/29696e6a16527722d4317e836afe877a.png', (req, res) => {
   res.sendFile(
-    path.resolve(__dirname, '../client/assets/recoilize-rainbow.png')
+    path.resolve(__dirname, '../client/assets/recoilize-logo-new-01.png')
   );
 });
 
+// white recoilize logo
 app.get('/25370ef4e56d328aca432e7d39192073.png', (req, res) => {
   res.sendFile(
     path.resolve(__dirname, '../client/assets/recoilize-white-01.png')
   );
 });
+
+// gray recoilize logo
 app.get('/75757e594997778fce4b6a0b587f958e.png', (req, res) => {
   res.sendFile(
     path.resolve(__dirname, '../client/assets/recoilize-gray-01.png')
   );
 });
 
+// black recoilize logo
 app.get('/89dfeb8c2a785562c1ff2ff157aa21aa.png', (req, res) => {
   res.sendFile(path.resolve(__dirname, '../client/assets/recoilize-black.png'));
+});
+
+// github logo
+app.get('/b039b2d83982c8256af34260e546303b.png', (req, res) => {
+  res.sendFile(
+    path.resolve(__dirname, '../client/assets/Github-Mark-64px.png')
+  );
 });
 
 // home page makes request for state diff gif
