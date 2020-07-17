@@ -46,7 +46,7 @@ const App = () => {
             <Tab label='Contributing' /> */}
           </Tabs>
           Recoilize
-          <a href='http://github.com/oslabs-beta/Recoilize'>
+          <a href='http://github.com/oslabs-beta/Recoilize' target='_blank'>
             <img id='github_link' src={github}></img>
           </a>
         </Toolbar>
