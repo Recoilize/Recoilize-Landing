@@ -18,7 +18,7 @@ function HeroSection() {
       </h1>
       <h3 align='center' className='secondaryText'>
         A Chrome Dev Tool meant for debugging applications built with the new
-        Recoil.js state management library!
+        Recoil.js state management library
       </h3>
       <br />
       <br />
